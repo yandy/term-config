@@ -69,3 +69,15 @@ tmux 所有快捷键都需要先按 **前缀键**：
 | 切换分屏 | `前缀 + 方向键` | 在分屏间切换 |
 | 关闭分屏 | `前缀 + x` | 关闭当前分屏 |
 | 分屏菜单 | `前缀 + >` | 分屏操作菜单 |
+
+
+### 4. Copy Mode（复制模式）
+| Command | 快捷键 | 作用 |
+|------|--------|------|
+| copy-mode | `前缀 + [` | 进入复制模式 |
+| cancel | `q` | 退出复制模式 |
+| begin-selection | `Space` | 开始选择文本 |
+| clear-selection | `Esc` | 取消选择文本 |
+| copy-selection-and-cancel | `Enter` | 复制选中的文本并退出复制模式 |
+
+其他参考： [vi 光标操作](./README-vi.md)
