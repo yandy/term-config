@@ -33,11 +33,10 @@ git clone https://github.com/yandy/alacritty-config.git ~/.config/alacritty
 
 ## tmux
 
-#### 配置
+**配置**
 
-将 `tmux.conf` 链接到 `~/.tmux.conf`
+```sh
+ln -s $(pwd)/tmux.conf ~/.tmux.conf
+```
 
-- Windows: `New-Item -ItemType SymbolicLink -Path $HOME/tmux.conf -TargetPath $PWD/_windows.tmux.conf`
-- Linux: `ln -s $(pwd)/tmux.conf ~/.tmux.conf`
-
-#### [使用](./README-tmux.md)
+**[使用](./README-tmux.md)**
