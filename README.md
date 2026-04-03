@@ -30,13 +30,3 @@ git clone https://github.com/yandy/alacritty-config.git ~/.config/alacritty
 
 - Windows: `New-Item -ItemType SymbolicLink -Path ./os-specific.toml -TargetPath $PWD/_windows.toml`
 - Linux: `ln -s $(pwd)/_linux.toml ./os-specific.toml`
-
-## tmux
-
-**配置**
-
-```sh
-ln -s $(pwd)/tmux.conf ~/.tmux.conf
-```
-
-**[使用](./README-tmux.md)**
