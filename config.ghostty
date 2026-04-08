@@ -1,0 +1,6 @@
+keybind = performable:ctrl+c=copy_to_clipboard
+
+background-opacity = 0.7
+background-opacity-cells = true
+
+theme = light:Catppuccin Latte,dark:Catppuccin Mocha
