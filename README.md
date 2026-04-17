@@ -49,4 +49,7 @@ escape                                end_search
 ctrl  + c                             copy_to_clipboard:mixed
 ctrl  + v                             paste_from_clipboard
 ctrl  + alt   + v                     paste_from_selection
+
+shift + page_down                     scroll_page_down
+shift + page_up                       scroll_page_up
 ```
