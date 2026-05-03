@@ -38,6 +38,7 @@ ctrl  + shift + w                     close_tab:this
 
 ctrl  + shift + o                     new_split:right
 ctrl  + shift + e                     new_split:down
+ctrl  + shift + enter                 toggle_split_zoom
 ctrl  + alt   + arrow_down            goto_split:down
 ctrl  + alt   + arrow_left            goto_split:left
 ctrl  + alt   + arrow_right           goto_split:right
